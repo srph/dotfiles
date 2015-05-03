@@ -1,0 +1,10 @@
+**/*/__tests__
+docs
+examples
+karma.conf.js
+.eslintrc
+.editorconfig
+.travis.yml
+bower.json
+CONTRIBUTING.md
+webpack.test.js
