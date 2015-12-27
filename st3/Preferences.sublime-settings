@@ -9,5 +9,7 @@
 	[
 		"Vintage"
 	],
-	"folder_exclude_patterns": [".*"]
+	"folder_exclude_patterns": [".*"],
+  "caret_style": "phase",
+  "caret_extra_width": 5,
 }
