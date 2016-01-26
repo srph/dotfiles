@@ -1,3 +1,7 @@
+# Go
+export GOPATH="$HOME/.go"
+export PATH="$PATH:$GOPATH/bin"
+
 # alias
 alias artisan='php artisan'
 
