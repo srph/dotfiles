@@ -1,4 +1,0 @@
-alias artisan='php artisan' # laravel
-alias gaa='git add .'
-alias gc='git commit'
-alias gdiff='git diff ^HEAD'
