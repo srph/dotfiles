@@ -1,9 +1,16 @@
+# alias
+alias artisan='php artisan'
+alias gaa='git add .'
+alias gc='git commit'
+alias gdiff='git diff ^HEAD'
+
+# Composer
+export COMPOSERPATH="$HOME/.composer"
+export PATH="$PATH:$COMPOSERPATH/vendor/bin"
+
 # Go
 export GOPATH="$HOME/.go"
 export PATH="$PATH:$GOPATH/bin"
-
-# alias
-alias artisan='php artisan'
 
 # PS1
 export GITAWAREPROMPT=~/.bash/git-aware-prompt
