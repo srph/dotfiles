@@ -3,6 +3,7 @@ alias artisan='php artisan'
 alias gaa='git add .'
 alias gc='git commit'
 alias gdiff='git diff ^HEAD'
+alias gp='git push'
 
 # Composer
 export COMPOSERPATH="$HOME/.composer"
