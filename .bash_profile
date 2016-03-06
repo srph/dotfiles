@@ -1,5 +1,6 @@
 # alias
-alias weather='curl wttr.in'
+alias moon='curl wttr.in/moon'
+alias weather='curl wttr.in/manila'
 alias artisan='php artisan'
 alias gaa='git add .'
 alias gc='git commit'
