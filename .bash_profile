@@ -6,6 +6,7 @@ alias gaa='git add .'
 alias gc='git commit'
 alias gdiff='git diff ^HEAD'
 alias gp='git push'
+# http://ss64.com/bash/alias.html
 alias ..='cd ..'
 # http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/
 # Relaunch Finder afterwards (Alt/Option + Context Click Finder)
