@@ -6,6 +6,11 @@ alias gaa='git add .'
 alias gc='git commit'
 alias gdiff='git diff ^HEAD'
 alias gp='git push'
+alias ..='cd ..'
+# http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/
+# Relaunch Finder afterwards (Alt/Option + Context Click Finder)
+alias show.files='defaults write com.apple.finder AppleShowAllFiles YES'
+alias hide.files='defaults write com.apple.finder AppleShowAllFiles NO'
 
 # Composer
 export COMPOSERPATH="$HOME/.composer"
