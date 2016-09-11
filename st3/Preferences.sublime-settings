@@ -3,6 +3,8 @@
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"font_face": "Liberation Mono",
 	"font_size": 14,
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
   "bold_folder_labels": true,
   "indent_guide_options": [ "draw_normal", "draw_active" ],
 	"ignored_packages":
