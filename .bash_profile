@@ -12,6 +12,7 @@ alias ..='cd ..'
 # Relaunch Finder afterwards (Alt/Option + Context Click Finder)
 alias show.files='defaults write com.apple.finder AppleShowAllFiles YES'
 alias hide.files='defaults write com.apple.finder AppleShowAllFiles NO'
+alias r='npm run'
 
 # Composer
 export COMPOSERPATH="$HOME/.composer"
