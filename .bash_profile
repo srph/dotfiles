@@ -30,3 +30,7 @@ export PS1="λ \W \$git_branch → " # λ srph ~./ (master)
 # CLI
 export CLICOLOR=1
 export TERM=xterm-256color
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
