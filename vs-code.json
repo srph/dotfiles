@@ -1,0 +1,10 @@
+{
+    "editor.fontSize": 13,
+    "editor.fontFamily": "'Roboto Mono', Consolas, 'Courier New', monospace",
+    "editor.tabSize": 2,
+    "editor.cursorStyle": "block",
+    "workbench.colorTheme": "Monokai",
+    "window.zoomLevel": 0,
+    "go.docsTool": "gogetdoc",
+    "workbench.activityBar.visible": true
+}
