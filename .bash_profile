@@ -13,6 +13,8 @@ alias ..='cd ..'
 alias show.files='defaults write com.apple.finder AppleShowAllFiles YES'
 alias hide.files='defaults write com.apple.finder AppleShowAllFiles NO'
 alias r='npm run'
+# WSL
+alias cdc=/mnt/c/Code
 
 # Composer
 export COMPOSERPATH="$HOME/.composer"
@@ -43,6 +45,3 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Python
 export PATH=$PATH:$HOME/Library/Python/3.7/bin
-
-# WSL
-export cdc=/mnt/c/Code
