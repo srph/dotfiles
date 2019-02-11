@@ -43,3 +43,6 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Python
 export PATH=$PATH:$HOME/Library/Python/3.7/bin
+
+# WSL
+export cdc=/mnt/c/Code
