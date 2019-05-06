@@ -1,10 +1,16 @@
 {
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
     "editor.fontSize": 13,
     "editor.fontFamily": "'Roboto Mono', Consolas, 'Courier New', monospace",
     "editor.tabSize": 2,
     "editor.cursorStyle": "block",
-    "workbench.colorTheme": "Monokai",
+    "workbench.colorTheme": "Dracula",
     "window.zoomLevel": 0,
     "go.docsTool": "gogetdoc",
-    "workbench.activityBar.visible": true
+    "workbench.activityBar.visible": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "breadcrumbs.enabled": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
