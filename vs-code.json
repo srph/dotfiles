@@ -1,15 +1,26 @@
 {
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
-    "editor.fontSize": 13,
-    "editor.fontFamily": "'Roboto Mono', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'Iosevka', 'Roboto Mono', Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "300",
     "editor.tabSize": 2,
     "editor.cursorStyle": "block",
+    "editor.formatOnSave": false,
     "workbench.colorTheme": "Dracula",
     "window.zoomLevel": 0,
     "go.docsTool": "gogetdoc",
     "workbench.activityBar.visible": true,
-    "typescript.updateImportsOnFileMove.enabled": "always",
     "breadcrumbs.enabled": true,
+    "emmet.includeLanguages": {
+        "vue": "html"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
