@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "outDir": "build/lib",
+    "module": "es2015",
+    "target": "esnext",
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],
+    "sourceMap": true,
+    "allowJs": false,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDirs": ["src", ".storybook/stories"],
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "baseUrl": "./",
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*", ".storybook/stories"],
+  "exclude": ["node_modules", "build", "scripts"]
+}
