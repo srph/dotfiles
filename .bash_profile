@@ -13,8 +13,7 @@ alias ..='cd ..'
 alias show.files='defaults write com.apple.finder AppleShowAllFiles YES'
 alias hide.files='defaults write com.apple.finder AppleShowAllFiles NO'
 alias r='npm run'
-# WSL
-alias cdc=/mnt/c/Code
+alias cdc='cd /mnt/c/Code'
 
 # Composer
 export COMPOSERPATH="$HOME/.composer"
@@ -22,7 +21,11 @@ export PATH="$PATH:$COMPOSERPATH/vendor/bin"
 
 # Go
 export GOPATH="$HOME/.go"
-export PATH="$PATH:$GOPATH/bin"
+export GOROOT="/usr/local/go"
+export PATH="$PATH:$GOROOT/bin"
+export GO111MODULE=on
+# GVM
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
 
 # PS1
 export GITAWAREPROMPT=~/.bash/git-aware-prompt
@@ -45,3 +48,11 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Python
 export PATH=$PATH:$HOME/Library/Python/3.7/bin
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# psql
+PATH=$PATH:/usr/lib/postgresql/9.6/bin
+
+# Personal Scripts
+export PATH=$PATH:$HOME/.personal-scripts
