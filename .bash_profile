@@ -56,3 +56,6 @@ PATH=$PATH:/usr/lib/postgresql/9.6/bin
 
 # Personal Scripts
 export PATH=$PATH:$HOME/.personal-scripts
+
+# Laravel Sail
+alias sail="./vendor/bin/sail"
