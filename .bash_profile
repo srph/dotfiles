@@ -58,4 +58,4 @@ PATH=$PATH:/usr/lib/postgresql/9.6/bin
 export PATH=$PATH:$HOME/.personal-scripts
 
 # Laravel Sail
-alias sail="./vendor/bin/sail"
+alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
